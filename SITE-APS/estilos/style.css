@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    background-color: #2571ff;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.banner {
+    height: 200px;
+    width: 97%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar {
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+
+.navbar:hover {
+    font-size: 22px;
+    color: lightskyblue;
+    transition: .2s;
+}
+
+li {
+    padding-right: 50px;
+    color: white;
+}
+
+.lista-poluicao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.lista-poluicao li {
+    color: black;
+}
+
+/* main {
+    background-image: url(../imagens/praia-borrado.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} */
+
+img {
+    padding: 20px;
+    float: left;
+}
+
+.solucao {
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 19px;
+}
+
+.texto {
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    transition: .2s;
+}
+
+a:hover {
+    color: darkslategray;
+    font-size: 18px;
+    transition: .2s;
+}
+
+/* footer {
+    background-color: #2571ff;
+    color: white;
+    text-align: center;
+} */
